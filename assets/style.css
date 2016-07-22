@@ -31,6 +31,7 @@ li.ko { color: indigo; }
 li.jp { color: crimson; }
 li.cn { color: darkcyan; }
 li.num { color: violet; }
+li.ar { color: darkslateblue; }
 li.punct { color: deeppink; }
 li.parentheses { color: limegreen; }
 
@@ -49,6 +50,10 @@ li.parentheses { color: limegreen; }
 }
 .ml-cn {
 	color:darkcyan;
+}
+
+.ml-ar {
+	color: darkslateblue;
 }
 .ml-num {
 	font-family: LiberationMono, Courier, monospace;
