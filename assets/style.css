@@ -18,12 +18,14 @@ h1, h2, h3, ul {
 	text-align: center;
 }
 h1 { margin: 3em 0 0 0; }
-h2, h3, h3 a { color:gray; }
+h2, h3, h3 a, .lang { color:gray; }
 h3 { margin: 5em auto;}
-ul { margin: 2em auto; }
+hr { height:1px; background-color: #ccc; border:0; margin-bottom: 3em;}
+ul { margin: 3em auto; text-align: left;}
 li {
 	display: inline-block;
-	margin-right: 1em;
+	/*margin-right: 1em;*/
+	width:33.33%;
 }
 li.subtitle { color: gray; margin-bottom:1em; }
 li.en { color: brown; }
@@ -31,7 +33,7 @@ li.ko { color: indigo; }
 li.jp { color: crimson; }
 li.cn { color: darkcyan; }
 li.num { color: violet; }
-li.ar { color: darkslateblue; }
+li.ar { color: goldenrod; }
 li.punct { color: deeppink; }
 li.parentheses { color: limegreen; }
 
@@ -53,7 +55,7 @@ li.parentheses { color: limegreen; }
 }
 
 .ml-ar {
-	color: darkslateblue;
+	color: goldenrod;
 }
 .ml-num {
 	font-family: LiberationMono, Courier, monospace;
